@@ -1,7 +1,7 @@
 //import { LightweightCharts.createChart } from 'https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js';
 
 const chartOptions = { layout: { textColor: 'black', background: { type: 'solid', color: 'white' } } };
-const chart = LightweightCharts.createChart(document.getElementById('container'), chartOptions);
+const chart = LightweightCharts.createChart(document.body, chartOptions);
 const areaSeries = chart.addAreaSeries({
     lineColor: '#2962FF', topColor: '#2962FF',
     bottomColor: 'rgba(41, 98, 255, 0.28)',
