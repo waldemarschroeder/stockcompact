@@ -5,6 +5,7 @@ height: 100%;
 
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 .form-container {
     max-width: 300px;
@@ -14,15 +15,37 @@ body {
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-.form-group {
-    margin-bottom: 15px;
-}
+
 .form-group label {
     display: block;
-    margin-bottom: 5px;
+
 }
-.form-group input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
+
+#headerInfos {
+    display: flex;
+    gap: 10px; /* Abstand zwischen den Feldern */
+    background-color: black; /* Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+    font-family: Arial, sans-serif; /* Schriftart */
+    padding: 10px; /* Innenabstand */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Abstand zwischen den Feldern */
+    border: 2px solid blue; /* Blauer Rahmen */
+    padding: 5px; /* Innenabstand für bessere Sichtbarkeit des Rahmens */
+    border-radius: 5px; /* Abgerundete Ecken für den Rahmen */
+}
+
+#headLine {
+    background-color: black; /* Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+    margin: 0px;
+    padding: 10px;
+}
+
+#headLine h1 {
+    margin: 0;
 }
