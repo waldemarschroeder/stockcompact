@@ -1,4 +1,4 @@
-import { createChart } from 'lightweight-charts';
+import { createChart } from 'node_modules/lightweight-charts';
 
 const chartOptions = { layout: { textColor: 'black', background: { type: 'solid', color: 'white' } } };
 const chart = createChart(document.getElementById('container'), chartOptions);
