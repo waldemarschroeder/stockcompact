@@ -1,3 +1,5 @@
+import { createChart } from 'lightweight-charts';
+
 const chartOptions = { layout: { textColor: 'black', background: { type: 'solid', color: 'white' } } };
 const chart = createChart(document.getElementById('container'), chartOptions);
 const areaSeries = chart.addAreaSeries({
